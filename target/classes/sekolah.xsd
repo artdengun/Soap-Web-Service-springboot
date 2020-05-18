@@ -1,0 +1,49 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" 
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://paytech.com/webservices/sekolah"
+           targetNamespace="http://paytech.com/webservices/sekolah">
+  <xs:element name="id" type="xs:integer"/>
+  <xs:element name="nama" type="xs:string"/>
+  <xs:element name="kode" type="xs:string"/>
+  <xs:element name="wilayah" type="xs:string"/>
+  <xs:element name="kodepos" type="xs:integer"/>
+  <xs:element name="pencarian">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nama"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="daftarSekolahRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="pencarian"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sekolah">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="id"/>
+        <xs:element ref="nama"/>
+        <xs:element ref="kode"/>
+        <xs:element ref="wilayah"/>
+        <xs:element ref="kodepos"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="daftarSekolah">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="sekolah" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="daftarSekolahResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="daftarSekolah"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
