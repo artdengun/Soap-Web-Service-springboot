@@ -1,0 +1,72 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="https://schemas.xmlsoap.org/soap/enveloper/">
+    <SOAP-ENV:Header />
+    <SOAP-ENV:Body>
+        <ns2:daftarSekolahResponse xmlns:ns2="http://paytech.com/webservices/sekolah">
+            <ns2:daftarSekolah>
+                <ns2:Sekolah>
+                    <ns2:id>1</ns2:id>
+                    <ns2:kode>10001</ns2:kode>
+                    <ns2:nama>SMK 11</ns2:nama>
+	            <ns2:wilayah>BEKASI </ns2:wilayah>
+                    <ns2:kodepos>17426</ns2:kodepos>
+                </ns2:Sekolah>
+                <ns2:Sekolah>
+                    <ns2:id>2</ns2:id>
+                    <ns2:kode>10002</ns2:kode>
+                    <ns2:nama>SMK 12</ns2:nama>
+	            <ns2:wilayah>BEKASI </ns2:wilayah>
+                    <ns2:kodepos>17427</ns2:kodepos>
+                </ns2:Sekolah>
+                <ns2:Sekolah>
+                    <ns2:id>3</ns2:id>
+                    <ns2:kode>10003</ns2:kode>
+                    <ns2:nama>SMK 13</ns2:nama>
+	            <ns2:wilayah>BEKASI </ns2:wilayah>
+                    <ns2:kodepos>17428</ns2:kodepos>
+                </ns2:Sekolah>
+		<ns2:Sekolah>
+                    <ns2:id>4</ns2:id>
+                    <ns2:kode>10004</ns2:kode>
+                    <ns2:nama>SMK 14</ns2:nama>
+	            <ns2:wilayah>BEKASI </ns2:wilayah>
+                    <ns2:kodepos>17429</ns2:kodepos>
+                </ns2:Sekolah>
+		<ns2:Sekolah>
+                    <ns2:id>5</ns2:id>
+                    <ns2:kode>10005</ns2:kode>
+                    <ns2:nama>SMK 15</ns2:nama>
+	            <ns2:wilayah>BEKASI </ns2:wilayah>
+                    <ns2:kodepos>17430</ns2:kodepos>
+                </ns2:Sekolah>
+		<ns2:Sekolah>
+                    <ns2:id>6</ns2:id>
+                    <ns2:kode>10006</ns2:kode>
+                    <ns2:nama>SMK 16</ns2:nama>
+	            <ns2:wilayah>BEKASI </ns2:wilayah>
+                    <ns2:kodepos>17431</ns2:kodepos>
+                </ns2:Sekolah>
+		<ns2:Sekolah>
+                    <ns2:id>7</ns2:id>
+                    <ns2:kode>10007</ns2:kode>
+                    <ns2:nama>SMK 17</ns2:nama>
+	            <ns2:wilayah>BEKASI </ns2:wilayah>
+                    <ns2:kodepos>17432</ns2:kodepos>
+                </ns2:Sekolah>
+		<ns2:Sekolah>
+                    <ns2:id>8</ns2:id>
+                    <ns2:kode>10008</ns2:kode>
+                    <ns2:nama>SMK 18</ns2:nama>
+	            <ns2:wilayah>BEKASI </ns2:wilayah>
+                    <ns2:kodepos>17433</ns2:kodepos>
+                </ns2:Sekolah>
+		<ns2:Sekolah>
+                    <ns2:id>9</ns2:id>
+                    <ns2:kode>10009</ns2:kode>
+                    <ns2:nama>SMK 19</ns2:nama>
+	            <ns2:wilayah>BEKASI </ns2:wilayah>
+                    <ns2:kodepos>17434</ns2:kodepos>
+                </ns2:Sekolah>
+            </ns2:daftarSekolah>
+        </ns2:daftarSekolahResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

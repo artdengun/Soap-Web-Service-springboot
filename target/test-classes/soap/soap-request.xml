@@ -1,0 +1,14 @@
+
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+					xmlns:siup="http://paytech.com/webservices/sekolah">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <siup:daftarSekolahRequest>
+            <siup:pencarian>
+                <siup:nama>yadika</siup:nama>
+            </siup:pencarian>
+        </siup:daftarSekolahRequest>
+    </soapenv:Body>
+</soapenv:Envelope>

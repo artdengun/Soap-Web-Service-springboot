@@ -1,8 +1,10 @@
-generated/DaftarSekolahResponse.class
-com/paytech/SoapWebServicespringboot/Konfigurasi/KonfigurasiSoap.class
-generated/Pencarian.class
-generated/DaftarSekolah.class
-generated/Sekolah.class
+com/paytech/SoapWebServicespringboot/Entity/Sekolah.class
+com/paytech/SoapWebServicespringboot/Dto/DaftarSekolah.class
+com/paytech/SoapWebServicespringboot/Dao/SekolahDao.class
+com/paytech/SoapWebServicespringboot/Dto/package-info.class
 com/paytech/SoapWebServicespringboot/SoapWebServiceSpringbootApplication.class
-generated/DaftarSekolahRequest.class
-generated/ObjectFactory.class
+com/paytech/SoapWebServicespringboot/Konfigurasi/KonfigurasiSoap.class
+com/paytech/SoapWebServicespringboot/Dto/DaftarSekolahResponse.class
+com/paytech/SoapWebServicespringboot/EndPoint/SekolahEndPoint.class
+com/paytech/SoapWebServicespringboot/Dto/Pencarian.class
+com/paytech/SoapWebServicespringboot/Dto/DaftarSekolahRequest.class
